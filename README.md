@@ -15,7 +15,9 @@ this project aim to perform a simple ETL processing that includes
    [Gold Directory](./Gold/).
 
 > **NOTE:** This script is scheduled to run every day at 12:00 AM using cron
-> jobs. the file can be find [here](./scripts/bash_scripts/cronjob.sh)
+> jobs. the cronjob script can be find [here](./scripts/bash_scripts/cronjob.sh)
+> you would have to run the [transform script](./scripts/transform) before
+> having access to the Transformed and Gold directory
 
 ### The second part of the project aim to helps CoreDataEngineers to understand the market, analyzing their competitor called Parch and Posey's data. This is achieved by using the following steps:
 
