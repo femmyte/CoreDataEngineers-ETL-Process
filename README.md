@@ -33,3 +33,11 @@ this project aim to perform a simple ETL processing that includes
       associated accounts. Your final table should include three columns: the
       region name, the sales rep name, and the account name. Sort the accounts
       alphabetically (A-Z) by account name.
+
+## To use this script follow these instructions:
+
+1. change directory to scripts/bash_script directory by using
+   `cd scripts/bash_script`
+2. Afterwards update the file permission of the following files.
+   move_csv_and_json_files.sh, transform.sh, and cronjob.sh by running
+   `chmod +x *.sh`
